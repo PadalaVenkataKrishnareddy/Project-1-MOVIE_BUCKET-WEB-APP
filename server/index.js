@@ -13,7 +13,7 @@ const s3 = new AWS.S3({
   secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
 });
 
-mongoose.connect('mongodb+srv://m001-student:m001-mongodb-basics@sandbox.uzifnvb.mongodb.net/test', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://pvenkatakrishnareddy1901:Venkata1@cluster0.fjaqwqt.mongodb.net/test', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB...'))
   .catch(err => console.error('Could not connect to MongoDB...', err));
 
